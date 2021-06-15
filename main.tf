@@ -67,7 +67,8 @@ resource "google_compute_instance" "hashicat" {
   tags = ["http-server"]
 
   labels = {
-    name = "department, billable"
+    name = "billable"
+    name2 = "department"
   }
 
 }
