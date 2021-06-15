@@ -5,7 +5,7 @@ module "vpc" {
     project_id   = "var.project"
     network_name = "gaurav-network"
 
-    shared_vpc_host = false
+    # shared_vpc_host = false
 
     subnets = [
   {
